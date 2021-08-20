@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- custom widgets -->
+
+    <dimen name="small_text_size">11sp</dimen>
+    <dimen name="medium_text_size">14sp</dimen>
+    <dimen name="big_text_size">16sp</dimen>
+    <dimen name="x_big_text_size">20sp</dimen>
+</resources>

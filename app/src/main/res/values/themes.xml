@@ -1,0 +1,153 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Simple" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowFullscreen">true</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/premium</item>
+        <item name="colorPrimaryVariant">@color/premium</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextViewLight" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">@dimen/widget_text_size</item>
+    </style>
+    <style name="TextViewbold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/widget_text_size</item>
+    </style>
+    <style name="TextViewMedium" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/widget_text_size</item>
+    </style>
+    <style name="TextViewRegular" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/widget_text_size</item>
+    </style>
+
+    <!-- <style name="TextViewSemiBold" parent="Widget.MaterialComponents.TextView">
+         <item name="android:textStyle">normal</item>
+         <item name="android:fontFamily">@font/roboto_bold</item>
+         <item name="android:textSize">@dimen/widget_text_size</item>
+     </style>-->
+
+
+    <style name="EditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/space_gray</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxStrokeColor">@null</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:textSize">10dp</item>
+        <item name ="android:textColor">@color/black</item>
+        <item name="hintTextColor">@color/premium</item>
+    </style>
+
+    <style name="EditTextStyleOutline" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/space_gray</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxStrokeColor">@null</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="hintTextColor">@color/black</item>
+    </style>
+
+    <style name="OutlinedButtonStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">@dimen/default_button_width</item>
+        <item name="android:layout_height">@dimen/default_button_height</item>
+        <item name="android:strokeColor">@color/black</item>
+        <item name="android:elevation">3dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="iconSize">25dp</item>
+        <item name="elevation">1dp</item>
+        <item name="strokeColor">@color/black</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">@dimen/default_button_width</item>
+        <item name="android:layout_height">@dimen/default_button_height</item>
+        <item name="android:backgroundTint">@color/buttonTextColor</item>
+        <item name="cornerRadius">32dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="circleImageView_" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item>
+    </style>
+
+    <style name="circleImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="roundedImage" parent="">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomRight">36dp</item>
+        <item name="cornerSizeBottomLeft">36dp</item>
+    </style>
+
+    <style name="SelectedCornerRadius" parent="">
+        <item name="cornerSizeBottomLeft">36dp</item>
+        <item name="cornerSizeBottomRight">36dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+    </style>
+
+
+    <style name="AppBottomSheetDialogThemeTransparent"
+        parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyleTransparent</item>
+    </style>
+
+    <style name="AppModalStyleTransparent"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="TextViewSemiBold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/widget_text_size</item>
+    </style>
+
+    <style name="progressBarBlue" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/premium</item>
+    </style>
+</resources>
